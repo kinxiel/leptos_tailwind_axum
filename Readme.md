@@ -104,7 +104,7 @@ Second solution. We can use special `#[prop(into)] width: Signal<i32>` syntax on
 
 Navigate to:
 
-> http://localhost:3000/text_input
+> localhost:3000/text_input
 
 The text input value (a reactive signal) is bound to the display text. Changing the input value will trigger a state change. Also in this example we explore how to do some conditional class rendering. If you type `blue` in the input, the background of the text should turn blue. We basically have a boolean toggle that adds or removes a class based on the text value.
 
@@ -114,7 +114,7 @@ The text input value (a reactive signal) is bound to the display text. Changing 
 
 Navigate to:
 
-> http://localhost:3000/control_flow
+> localhost:3000/control_flow
 
 This is simple example of a calendar input. Depending on the date, we return whether it is a weekday or weekend using some simple logic. The point in this example is to show that control flow using something like `if` and `else` is done using normal Rust code, no special syntax necessary.
 
@@ -124,7 +124,7 @@ This is simple example of a calendar input. Depending on the date, we return whe
 
 Navigate to:
 
-> http://localhost:3000/parent_child_communication
+> localhost:3000/parent_child_communication
 
 In this example we basically have a parent component with several child components and we want the event triggered by the child component to affect something in the parent component.
 
@@ -158,7 +158,7 @@ There are several methods to achieve this:
 
 Navigate to:
 
-> http://localhost:3000/pass_children
+> localhost:3000/pass_children
 
 In this example we have a parent component that accepts some `children` and we want some way to let the parent render the `children`.
 
@@ -177,7 +177,7 @@ This can be achieved by using Leptos's `Children` type. You can see the code to 
 
 Navigate to:
 
-> http://localhost:3000/fetch
+> localhost:3000/fetch
 
 Here we are using a publicly available API (Amiibo API) to fetch some data. The process is rather straightforward.
 
