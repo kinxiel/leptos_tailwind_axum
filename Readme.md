@@ -201,3 +201,5 @@ pub struct Data {
 ```
 
 You can check the API url for the actual structure of the data, but basically we have data in JSON format, where the first element is an array called `amiibo` which contains a couple of entries for the data, each with a pattern like our struct `Amiibo`.
+
+> Read the comments in the code for details.
