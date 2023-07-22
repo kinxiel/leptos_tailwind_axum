@@ -8,12 +8,11 @@ use log::Level;
 
 // This is part is used in the example for parent child communication.
 // We create a new type (something like a type alias in TypeScript). It is not completely necessary
-// but it hel[s for organization].
+// but it helps for organization.
 
 // The part below that starts with a `#` is what is called an attribute, and inside it we use
 // the `derive` marco to automatically implement the `Copy` and `Clone` traits for us. You can manually implement
 // it but it will make the code more verbose.
-
 // Traits are like interfaces or protocols in other languages. `WriteSignal` is a type in Leptos that is
 // a setter for the signal.
 #[derive(Copy, Clone)]
